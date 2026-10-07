@@ -1,0 +1,21 @@
+#include <iostream>
+
+std::string day(int x) {
+  switch (x) {
+    case 1:std::cout<<"Понедельник" << std::endl; break;
+    case 2:std::cout<<"Вторник" << std::endl; break;
+    case 3:std::cout<<"Среда" << std::endl; break;
+    case 4:std::cout<<"Четверг" << std::endl; break;
+    case 5:std::cout<<"Пятница" << std::endl; break;
+    case 6:std::cout<<"Суббота" << std::endl; break;
+    case 7:std::cout<<"Воскресенье" << std::endl; break;
+    default:std::cout<<"Это не день недели" << std::endl; break;
+  }
+}
+
+int main() {
+  int x;
+  std::cout << "Введите номер дня недели: ";
+  std::cin >> x;
+  std::cout << day(x) << std::endl;
+}
