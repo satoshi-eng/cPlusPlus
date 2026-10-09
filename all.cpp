@@ -153,7 +153,7 @@ int* reverseBack(int arr[], int n) {
 }
 
 int main() {
-  /*/ 1.1
+  // 1.1
   double x;
   std::cout << "Введите число: ";
   std::cin >> x;
@@ -251,8 +251,6 @@ int main() {
   std::cout << "Введите номер дня недели: ";
   std::cin >> e;
   std::cout << day(e) << std::endl;
-
-  */
 
   // 3.1
   int r;
